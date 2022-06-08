@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" ng-app="CalculateByteCode">
   <head>
     <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src = "app.js"></script>
     <title>Angular Practice</title>
   </head>
   <body>
-    <h1>Helloo.....first code for angular learning</h1>
+    <div class="" ng-controller="myFirstLogicalProgram">
+        <!-- <h1>Helloo.....first code for angular learning</h1> -->
+        <h3> Enter your name here: </h3>
+        <input type="text" name="Enter your name" ng-model="name"
+         ng-keyup = "displayNum();">
+
+        <h1>output of the input name is: {{tvalue}}</h1>
+    </div>
+
   </body>
 </html>
